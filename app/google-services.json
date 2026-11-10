@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734861757589",
+    "project_id": "yudbetfinalproject",
+    "storage_bucket": "yudbetfinalproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734861757589:android:be719c2bd270af95975f9c",
+        "android_client_info": {
+          "package_name": "com.katza.yudbetfinalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_NS56K8luWoObt-GvUHQyb5AX4skepuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
