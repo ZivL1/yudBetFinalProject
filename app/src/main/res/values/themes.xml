@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.YudBetFinalProject" parent="Base.Theme.YudBetFinalProject" />
+
+    <style name="CustomDatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColorPrimary">#F9FAFB</item>
+
+        <item name="colorControlNormal">#BB86FC</item>
+    </style>
 </resources>

@@ -62,6 +62,13 @@ public class UserAuthActivity extends AppCompatActivity {
                     signInUser();
                 }
             });
+            tvToArtistAuth.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(UserAuthActivity.this, BandAuthActivity.class));
+                    finish();
+                }
+            });
 
     }
 
@@ -104,7 +111,7 @@ public class UserAuthActivity extends AppCompatActivity {
             public void onSuccess(AuthResult authResult) {
                 FirebaseUser user = mAuth.getCurrentUser();
                 if(user != null){
-                    startActivity(new Intent(UserAuthActivity.this, MainActivity.class)); // לזכור לשנות פה את המסך הבא למסך הכנסת פרטים למשתמש
+                    startActivity(new Intent(UserAuthActivity.this, UserAuthNextActivity.class)); // לזכור לשנות פה את המסך הבא למסך הכנסת פרטים למשתמש
                     finish();
                 }else{
                     status("Error creating a new account");

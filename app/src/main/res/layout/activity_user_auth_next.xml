@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAuthNextActivity"
+    android:background="#121214"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add aditional information"
+            android:textColor="#F9FAFB"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Add a bit of information for your account"
+            android:textColor="#9CA3AF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Full name"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E1E24"
+            android:hint="John Doe"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Username"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="8dp"
+            android:background="#1E1E24"
+            android:hint="music_lover99"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Date of birth"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/dpBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:theme="@style/CustomDatePickerTheme"
+            />
+        <Button
+            android:id="@+id/btnFinishUserAuth"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Continue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#7C3AED"
+            app:cornerRadius="12dp" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
