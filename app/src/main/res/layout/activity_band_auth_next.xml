@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121214"
+    android:fillViewport="true"
+    tools:context=".UserAuthNextActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add aditional information"
+            android:textColor="#F9FAFB"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Add a bit of information for your account"
+            android:textColor="#9CA3AF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Band name"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etBandName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="16dp"
+            android:background="#1E1E24"
+            android:hint="Example: the beatles, machina"
+            android:inputType="text"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Year of formation"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etFormationyear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: 1960"
+            android:inputType="number"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Number of albums"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNumOfAlbums"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: 12"
+            android:inputType="number"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Main genre"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etGenre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: Rock, Pop"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Country of origin"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: Britain, Israel"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Record Label"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRecordLabel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: EMI, Indie"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="About"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etAbout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: A small description"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="Website/Spotify Link"
+            android:textColor="#F9FAFB"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:inputType="textUri"/>
+
+        <EditText
+            android:id="@+id/etLink"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="#1E1E24"
+            android:hint="Example: Rock, Pop"
+            android:paddingHorizontal="16dp"
+            android:textColor="#F9FAFB"
+            android:textColorHint="#9CA3AF"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/btnFinishBandAuth"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Continue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#7C3AED"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

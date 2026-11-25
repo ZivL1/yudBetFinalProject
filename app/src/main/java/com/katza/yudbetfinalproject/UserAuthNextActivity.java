@@ -61,7 +61,7 @@ public class UserAuthNextActivity extends AppCompatActivity {
             int birthmonth = dpBirthDate.getMonth();
             int birthyear = dpBirthDate.getYear();
             if(username.isEmpty()||fullname.isEmpty()){
-
+                Toast.makeText(UserAuthNextActivity.this, "at least one field is empty", Toast.LENGTH_SHORT).show();
                 return;
             }
             Map<String, Object> userMap = new HashMap<>();
@@ -70,8 +70,7 @@ public class UserAuthNextActivity extends AppCompatActivity {
             userMap.put("birthday", birthday);
             userMap.put("birthmonth",birthmonth);
             userMap.put("birthyear",birthyear);
-            boolean isBand = false;
-            userMap.put("isBand",isBand);
+            userMap.put("isBand",false);
             FirebaseUser current = mAuth.getCurrentUser();
             if(current!=null){
                 String uid = current.getUid();
